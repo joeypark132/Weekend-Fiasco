@@ -10,21 +10,22 @@
 <script src="website.js"></script>
 
 <h1>Welcome to the Website</h1>
-<p>Choose an option.</p>
-
-<button class="button button1">Sign Up</button>
-<button class="button button1">Sign In</button>
 
 
-<script>
-    // Get the button, and when the user clicks on it, execute myFunction
-    document.getElementById("myBtn").onclick = function() {myFunction()};
-    
-    /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
-    function myFunction() {
-      document.getElementById("myDropdown").classList.toggle("show");
-    }
-  </script>
+
+<p>
+  <label for="Username">Username: </label>
+  <input type="text" id="username" name="user"><br><br>
+  <label for="lname">Password:</label>
+  <input type="text" id="password" name="pass"><br><br>
+
+</p>
+
+
+<button class="button button1" id="login" onclick="login()">Log In</button>
+
+<button class="button button2" id="signup" onclick="signup()">Sign Up</button>
+
 
 
 
