@@ -1,6 +1,7 @@
 
 const test = () => {
-    console.log("hello world");
+    // Test call
+    window.alert("Hello mate")
 }
 
 const signup = () => {
