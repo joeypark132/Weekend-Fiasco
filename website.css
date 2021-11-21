@@ -38,16 +38,21 @@
   .button2:hover {
     background-color: #008CBA;
     color: white;
-
-    
   }
 
-  h1{
+
+h1{
     text-align: center;
 }
-  p{
+form {
     top:30%;
-    left:40%;
+    left:42%;
     position: absolute;
     text-align: center;
+
 }
+input[type=text] {
+    width: 80%;
+    padding: 9px 20px;
+    background-color: #F0F0F0;
+  }
